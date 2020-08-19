@@ -5,7 +5,8 @@
 <a href="https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Frotoapanta%2Fvoltage_sensor_FZ0430"><img alt="Twitter" src="https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Frotoapanta%2Fvoltage_sensor_FZ0430"></a>
 
 # sensor_voltaje_FZ0430
-Medir tensiones de hasta 25V con el sensor FZ0430.
+
+Measure voltages up to 25V with the FZ0430 sensor.
 
 ## Wiring diagram
 
