@@ -19,9 +19,9 @@ AN0 -----------------------------   S
 */
 
 /* define variables */
-const int sensorPin       = A0;                   // seleccionar la entrada para el sensor
-int sensorValue           = 0;                    // variable que almacena el valor raw (0 a 1023)
-double voltage            = 0.0;                  // variable que almacena el voltaje (0.0 a 25.0)
+const int sensorPin       = A0;                   // select the analog input for the sensor 
+int sensorValue           = 0;                    // variable that stores the raw value (0 to 1023)
+double voltage            = 0.0;                  // variable that stores voltage (0.0 to 25.0)
 int offset                = 0;                    // set the correction offset value
 
 void setup() {
@@ -32,6 +32,6 @@ void loop() {
   sensorValue = analogRead(sensorPin);                      // read the input
   voltage = map(sensorValue, 0, 1023, 0, 2500) + offset;    // map 0-1023 to 0-2500 and add correction offset
   voltage /=100;                                            // divide by 100 to get the decimal values
-  Serial.println(voltage);                                  // mostrar el valor por serial
+  Serial.println(voltage);                                  // show value by serial
   delay(500);
 }
