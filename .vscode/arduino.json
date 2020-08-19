@@ -1,0 +1,6 @@
+{
+    "sketch": "voltage_sensor_FZ0430.ino",
+    "programmer": "AVRISP mkII",
+    "board": "arduino:avr:uno",
+    "port": "COM5"
+}
