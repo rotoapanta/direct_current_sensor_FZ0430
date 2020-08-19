@@ -1,3 +1,5 @@
+<a href="https://github.com/rotoapanta/voltage_sensor_FZ0430/blob/master/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/rotoapanta/voltage_sensor_FZ0430"></a>
+
 [![GitHub issues](https://img.shields.io/github/issues/rotoapanta/sensor_voltaje_FZ0430)](https://github.com/rotoapanta/sensor_voltaje_FZ0430/issues)
 [![GitHub forks](https://img.shields.io/github/forks/rotoapanta/sensor_voltaje_FZ0430)](https://github.com/rotoapanta/sensor_voltaje_FZ0430/network)
 [![GitHub license](https://img.shields.io/github/license/rotoapanta/sensor_voltaje_FZ0430)](https://github.com/rotoapanta/sensor_voltaje_FZ0430)
