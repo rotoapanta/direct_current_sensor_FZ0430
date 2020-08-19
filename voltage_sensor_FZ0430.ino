@@ -29,11 +29,11 @@ void setup() {
 }
  
 void loop() {
-  sensorValue = analogRead(sensorPin);              // read the inpu
-  //value = fmap(sensorValue, 0, 1023, 0.0, 25.0);    // cambiar escala a 0.0 - 25.0
-  voltage = map(sensorValue, 0, 1023, 0, 2500) + offset;     // map 0-1023 to 0-2500 and add correction offset
+  sensorValue = analogRead(sensorPin);                      // read the input
+  //value = fmap(sensorValue, 0, 1023, 0.0, 25.0);            // cambiar escala a 0.0 - 25.0
+  voltage = map(sensorValue, 0, 1023, 0, 2500) + offset;    // map 0-1023 to 0-2500 and add correction offset
   voltage /=100;// divide by 100 to get the decimal values
-  Serial.println(voltage);                            // mostrar el valor por serial
+  Serial.println(voltage);                                  // mostrar el valor por serial
   delay(500);
 }
  
